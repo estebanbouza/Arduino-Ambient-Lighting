@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8A6249149A538F0031687D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A6248149A538F0031687D /* UIKit.framework */; };
+		5B8A624B149A538F0031687D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A624A149A538F0031687D /* Foundation.framework */; };
+		5B8A624D149A538F0031687D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A624C149A538F0031687D /* CoreGraphics.framework */; };
+		5B8A6253149A53900031687D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A6251149A53900031687D /* InfoPlist.strings */; };
+		5B8A6255149A53900031687D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A6254149A53900031687D /* main.m */; };
+		5B8A6259149A53900031687D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A6258149A53900031687D /* AppDelegate.m */; };
+		5B8A629C149A541B0031687D /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A629A149A541B0031687D /* SearchVC.m */; };
+		5B8A629D149A541B0031687D /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A629B149A541B0031687D /* SearchVC.xib */; };
+		5BB38CED149BAAA800A11D86 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB38CEC149BAAA800A11D86 /* Server.m */; };
+		5BB38CF6149BB0FC00A11D86 /* LightsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB38CF4149BB0FB00A11D86 /* LightsVC.m */; };
+		5BB38CF7149BB0FC00A11D86 /* LightsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB38CF5149BB0FC00A11D86 /* LightsVC.xib */; };
+		5BEBFF87149FBE21001F1525 /* IMG_2424.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEBFF86149FBE21001F1525 /* IMG_2424.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B8A6244149A538F0031687D /* ArduinoLampiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoLampiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8A6248149A538F0031687D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B8A624A149A538F0031687D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B8A624C149A538F0031687D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B8A6250149A53900031687D /* ArduinoLampiPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArduinoLampiPhone-Info.plist"; sourceTree = "<group>"; };
+		5B8A6252149A53900031687D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B8A6254149A53900031687D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B8A6256149A53900031687D /* ArduinoLampiPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArduinoLampiPhone-Prefix.pch"; sourceTree = "<group>"; };
+		5B8A6257149A53900031687D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B8A6258149A53900031687D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B8A6299149A541B0031687D /* SearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchVC.h; path = ../SearchVC.h; sourceTree = "<group>"; };
+		5B8A629A149A541B0031687D /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchVC.m; path = ../SearchVC.m; sourceTree = "<group>"; };
+		5B8A629B149A541B0031687D /* SearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchVC.xib; path = ../SearchVC.xib; sourceTree = "<group>"; };
+		5BB38CEB149BAAA800A11D86 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		5BB38CEC149BAAA800A11D86 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		5BB38CF3149BB0FB00A11D86 /* LightsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightsVC.h; sourceTree = "<group>"; };
+		5BB38CF4149BB0FB00A11D86 /* LightsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightsVC.m; sourceTree = "<group>"; };
+		5BB38CF5149BB0FC00A11D86 /* LightsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LightsVC.xib; sourceTree = "<group>"; };
+		5BE317EE149BBD1B008C7089 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5BEBFF86149FBE21001F1525 /* IMG_2424.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2424.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B8A6241149A538F0031687D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A6249149A538F0031687D /* UIKit.framework in Frameworks */,
+				5B8A624B149A538F0031687D /* Foundation.framework in Frameworks */,
+				5B8A624D149A538F0031687D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8A6239149A538F0031687D = {
+			isa = PBXGroup;
+			children = (
+				5BEBFF86149FBE21001F1525 /* IMG_2424.png */,
+				5B8A624E149A53900031687D /* ArduinoLampiPhone */,
+				5B8A6247149A538F0031687D /* Frameworks */,
+				5B8A6245149A538F0031687D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B8A6245149A538F0031687D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A6244149A538F0031687D /* ArduinoLampiPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B8A6247149A538F0031687D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A6248149A538F0031687D /* UIKit.framework */,
+				5B8A624A149A538F0031687D /* Foundation.framework */,
+				5B8A624C149A538F0031687D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B8A624E149A53900031687D /* ArduinoLampiPhone */ = {
+			isa = PBXGroup;
+			children = (
+				5BE317EE149BBD1B008C7089 /* Constants.h */,
+				5BE317ED149BBCFF008C7089 /* Server */,
+				5BE317EC149BBCEB008C7089 /* LightsVC */,
+				5BE317EA149BBCC4008C7089 /* SearchVC */,
+				5B8A6257149A53900031687D /* AppDelegate.h */,
+				5B8A6258149A53900031687D /* AppDelegate.m */,
+				5B8A624F149A53900031687D /* Supporting Files */,
+			);
+			path = ArduinoLampiPhone;
+			sourceTree = "<group>";
+		};
+		5B8A624F149A53900031687D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A6250149A53900031687D /* ArduinoLampiPhone-Info.plist */,
+				5B8A6251149A53900031687D /* InfoPlist.strings */,
+				5B8A6254149A53900031687D /* main.m */,
+				5B8A6256149A53900031687D /* ArduinoLampiPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BE317EA149BBCC4008C7089 /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A6299149A541B0031687D /* SearchVC.h */,
+				5B8A629A149A541B0031687D /* SearchVC.m */,
+				5B8A629B149A541B0031687D /* SearchVC.xib */,
+			);
+			name = SearchVC;
+			sourceTree = "<group>";
+		};
+		5BE317EC149BBCEB008C7089 /* LightsVC */ = {
+			isa = PBXGroup;
+			children = (
+				5BB38CF3149BB0FB00A11D86 /* LightsVC.h */,
+				5BB38CF4149BB0FB00A11D86 /* LightsVC.m */,
+				5BB38CF5149BB0FC00A11D86 /* LightsVC.xib */,
+			);
+			name = LightsVC;
+			sourceTree = "<group>";
+		};
+		5BE317ED149BBCFF008C7089 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				5BB38CEB149BAAA800A11D86 /* Server.h */,
+				5BB38CEC149BAAA800A11D86 /* Server.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B8A6243149A538F0031687D /* ArduinoLampiPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8A625C149A53900031687D /* Build configuration list for PBXNativeTarget "ArduinoLampiPhone" */;
+			buildPhases = (
+				5B8A6240149A538F0031687D /* Sources */,
+				5B8A6241149A538F0031687D /* Frameworks */,
+				5B8A6242149A538F0031687D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduinoLampiPhone;
+			productName = ArduinoLampiPhone;
+			productReference = 5B8A6244149A538F0031687D /* ArduinoLampiPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B8A623B149A538F0031687D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5B8A623E149A538F0031687D /* Build configuration list for PBXProject "ArduinoLampiPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B8A6239149A538F0031687D;
+			productRefGroup = 5B8A6245149A538F0031687D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B8A6243149A538F0031687D /* ArduinoLampiPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B8A6242149A538F0031687D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A6253149A53900031687D /* InfoPlist.strings in Resources */,
+				5B8A629D149A541B0031687D /* SearchVC.xib in Resources */,
+				5BB38CF7149BB0FC00A11D86 /* LightsVC.xib in Resources */,
+				5BEBFF87149FBE21001F1525 /* IMG_2424.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B8A6240149A538F0031687D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8A6255149A53900031687D /* main.m in Sources */,
+				5B8A6259149A53900031687D /* AppDelegate.m in Sources */,
+				5B8A629C149A541B0031687D /* SearchVC.m in Sources */,
+				5BB38CED149BAAA800A11D86 /* Server.m in Sources */,
+				5BB38CF6149BB0FC00A11D86 /* LightsVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B8A6251149A53900031687D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8A6252149A53900031687D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B8A625A149A53900031687D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B8A625B149A53900031687D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B8A625D149A53900031687D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Esteban Bouza (KP72QV7J94)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArduinoLampiPhone/ArduinoLampiPhone-Prefix.pch";
+				INFOPLIST_FILE = "ArduinoLampiPhone/ArduinoLampiPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8FEB6DB7-2644-4D33-9302-A1D6BF48AA74";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B8A625E149A53900031687D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Esteban Bouza (KP72QV7J94)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArduinoLampiPhone/ArduinoLampiPhone-Prefix.pch";
+				INFOPLIST_FILE = "ArduinoLampiPhone/ArduinoLampiPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8FEB6DB7-2644-4D33-9302-A1D6BF48AA74";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B8A623E149A538F0031687D /* Build configuration list for PBXProject "ArduinoLampiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A625A149A53900031687D /* Debug */,
+				5B8A625B149A53900031687D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8A625C149A53900031687D /* Build configuration list for PBXNativeTarget "ArduinoLampiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8A625D149A53900031687D /* Debug */,
+				5B8A625E149A53900031687D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B8A623B149A538F0031687D /* Project object */;
+}

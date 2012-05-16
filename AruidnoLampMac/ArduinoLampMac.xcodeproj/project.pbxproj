@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8BC70F149FBD2C0031ABE4 /* IMG_2424.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5B8BC70E149FBD2C0031ABE4 /* IMG_2424.JPG */; };
+		5BAE0422148AD3EB00562390 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAE0421148AD3EB00562390 /* Cocoa.framework */; };
+		5BAE042C148AD3EB00562390 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE042A148AD3EB00562390 /* InfoPlist.strings */; };
+		5BAE042E148AD3EB00562390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE042D148AD3EB00562390 /* main.m */; };
+		5BAE0432148AD3EB00562390 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE0430148AD3EB00562390 /* Credits.rtf */; };
+		5BAE0435148AD3EB00562390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE0434148AD3EB00562390 /* AppDelegate.m */; };
+		5BAE0438148AD3EB00562390 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE0436148AD3EB00562390 /* MainMenu.xib */; };
+		5BB38CE6149BA4F600A11D86 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB38CE4149BA4F600A11D86 /* Server.m */; };
+		5BCB4AD3149CCDBD00272301 /* ARDInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB4AD2149CCDBD00272301 /* ARDInterface.m */; };
+		5BCB4AD8149D07E400272301 /* ARDDriver.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB4AD7149D07E400272301 /* ARDDriver.c */; };
+		5BEBFF80149FBDEA001F1525 /* Untitled.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5BEBFF7F149FBDEA001F1525 /* Untitled.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B8BC70E149FBD2C0031ABE4 /* IMG_2424.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2424.JPG; sourceTree = "<group>"; };
+		5BAE041D148AD3EB00562390 /* arduinolamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arduinolamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAE0421148AD3EB00562390 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5BAE0424148AD3EB00562390 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5BAE0425148AD3EB00562390 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5BAE0426148AD3EB00562390 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BAE0429148AD3EB00562390 /* arduinolamp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arduinolamp-Info.plist"; sourceTree = "<group>"; };
+		5BAE042B148AD3EB00562390 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BAE042D148AD3EB00562390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BAE042F148AD3EB00562390 /* arduinolamp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arduinolamp-Prefix.pch"; sourceTree = "<group>"; };
+		5BAE0431148AD3EB00562390 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5BAE0433148AD3EB00562390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5BAE0434148AD3EB00562390 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5BAE0437148AD3EB00562390 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5BB38CE4149BA4F600A11D86 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		5BB38CE5149BA4F600A11D86 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		5BCB4AD1149CCDBD00272301 /* ARDInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDInterface.h; sourceTree = "<group>"; };
+		5BCB4AD2149CCDBD00272301 /* ARDInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDInterface.m; sourceTree = "<group>"; };
+		5BCB4AD4149CCDCA00272301 /* ARDDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ARDDriver.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5BCB4AD7149D07E400272301 /* ARDDriver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ARDDriver.c; sourceTree = "<group>"; };
+		5BE317F1149BC0CF008C7089 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5BEBFF7F149FBDEA001F1525 /* Untitled.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Untitled.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BAE041A148AD3EB00562390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAE0422148AD3EB00562390 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BAE0412148AD3EA00562390 = {
+			isa = PBXGroup;
+			children = (
+				5BEBFF7F149FBDEA001F1525 /* Untitled.icns */,
+				5B8BC70E149FBD2C0031ABE4 /* IMG_2424.JPG */,
+				5BAE0427148AD3EB00562390 /* arduinolamp */,
+				5BAE0420148AD3EB00562390 /* Frameworks */,
+				5BAE041E148AD3EB00562390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BAE041E148AD3EB00562390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE041D148AD3EB00562390 /* arduinolamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BAE0420148AD3EB00562390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE0421148AD3EB00562390 /* Cocoa.framework */,
+				5BAE0423148AD3EB00562390 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BAE0423148AD3EB00562390 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE0424148AD3EB00562390 /* AppKit.framework */,
+				5BAE0425148AD3EB00562390 /* CoreData.framework */,
+				5BAE0426148AD3EB00562390 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5BAE0427148AD3EB00562390 /* arduinolamp */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE0433148AD3EB00562390 /* AppDelegate.h */,
+				5BAE0434148AD3EB00562390 /* AppDelegate.m */,
+				5BCB4AD0149CCDA200272301 /* Arduino */,
+				5BE317F1149BC0CF008C7089 /* Constants.h */,
+				5BAE0436148AD3EB00562390 /* MainMenu.xib */,
+				5BCB4ACC149CCD7100272301 /* Server */,
+				5BAE0428148AD3EB00562390 /* Supporting Files */,
+			);
+			path = arduinolamp;
+			sourceTree = "<group>";
+		};
+		5BAE0428148AD3EB00562390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BAE0429148AD3EB00562390 /* arduinolamp-Info.plist */,
+				5BAE042A148AD3EB00562390 /* InfoPlist.strings */,
+				5BAE042D148AD3EB00562390 /* main.m */,
+				5BAE042F148AD3EB00562390 /* arduinolamp-Prefix.pch */,
+				5BAE0430148AD3EB00562390 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BCB4ACC149CCD7100272301 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				5BB38CE5149BA4F600A11D86 /* Server.h */,
+				5BB38CE4149BA4F600A11D86 /* Server.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		5BCB4ACE149CCD7A00272301 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB4AD4149CCDCA00272301 /* ARDDriver.h */,
+				5BCB4AD7149D07E400272301 /* ARDDriver.c */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		5BCB4ACF149CCD9400272301 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB4AD1149CCDBD00272301 /* ARDInterface.h */,
+				5BCB4AD2149CCDBD00272301 /* ARDInterface.m */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		5BCB4AD0149CCDA200272301 /* Arduino */ = {
+			isa = PBXGroup;
+			children = (
+				5BCB4ACE149CCD7A00272301 /* Driver */,
+				5BCB4ACF149CCD9400272301 /* Interface */,
+			);
+			name = Arduino;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BAE041C148AD3EB00562390 /* arduinolamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAE043B148AD3EB00562390 /* Build configuration list for PBXNativeTarget "arduinolamp" */;
+			buildPhases = (
+				5BAE0419148AD3EB00562390 /* Sources */,
+				5BAE041A148AD3EB00562390 /* Frameworks */,
+				5BAE041B148AD3EB00562390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arduinolamp;
+			productName = arduinolamp;
+			productReference = 5BAE041D148AD3EB00562390 /* arduinolamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BAE0414148AD3EA00562390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5BAE0417148AD3EA00562390 /* Build configuration list for PBXProject "ArduinoLampMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BAE0412148AD3EA00562390;
+			productRefGroup = 5BAE041E148AD3EB00562390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BAE041C148AD3EB00562390 /* arduinolamp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BAE041B148AD3EB00562390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAE042C148AD3EB00562390 /* InfoPlist.strings in Resources */,
+				5BAE0432148AD3EB00562390 /* Credits.rtf in Resources */,
+				5BAE0438148AD3EB00562390 /* MainMenu.xib in Resources */,
+				5B8BC70F149FBD2C0031ABE4 /* IMG_2424.JPG in Resources */,
+				5BEBFF80149FBDEA001F1525 /* Untitled.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BAE0419148AD3EB00562390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAE042E148AD3EB00562390 /* main.m in Sources */,
+				5BAE0435148AD3EB00562390 /* AppDelegate.m in Sources */,
+				5BB38CE6149BA4F600A11D86 /* Server.m in Sources */,
+				5BCB4AD3149CCDBD00272301 /* ARDInterface.m in Sources */,
+				5BCB4AD8149D07E400272301 /* ARDDriver.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BAE042A148AD3EB00562390 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BAE042B148AD3EB00562390 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BAE0430148AD3EB00562390 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BAE0431148AD3EB00562390 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5BAE0436148AD3EB00562390 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BAE0437148AD3EB00562390 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BAE0439148AD3EB00562390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BAE043A148AD3EB00562390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BAE043C148AD3EB00562390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arduinolamp/arduinolamp-Prefix.pch";
+				INFOPLIST_FILE = "arduinolamp/arduinolamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BAE043D148AD3EB00562390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arduinolamp/arduinolamp-Prefix.pch";
+				INFOPLIST_FILE = "arduinolamp/arduinolamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BAE0417148AD3EA00562390 /* Build configuration list for PBXProject "ArduinoLampMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAE0439148AD3EB00562390 /* Debug */,
+				5BAE043A148AD3EB00562390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAE043B148AD3EB00562390 /* Build configuration list for PBXNativeTarget "arduinolamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAE043C148AD3EB00562390 /* Debug */,
+				5BAE043D148AD3EB00562390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BAE0414148AD3EA00562390 /* Project object */;
+}
