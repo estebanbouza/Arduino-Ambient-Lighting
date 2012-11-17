@@ -272,12 +272,12 @@
 		5B8A625D149A53900031687D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Esteban Bouza (KP72QV7J94)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArduinoLampiPhone/ArduinoLampiPhone-Prefix.pch";
 				INFOPLIST_FILE = "ArduinoLampiPhone/ArduinoLampiPhone-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8FEB6DB7-2644-4D33-9302-A1D6BF48AA74";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -285,12 +285,12 @@
 		5B8A625E149A53900031687D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Esteban Bouza (KP72QV7J94)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArduinoLampiPhone/ArduinoLampiPhone-Prefix.pch";
 				INFOPLIST_FILE = "ArduinoLampiPhone/ArduinoLampiPhone-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8FEB6DB7-2644-4D33-9302-A1D6BF48AA74";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
