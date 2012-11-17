@@ -387,7 +387,7 @@ static void SocketAcceptedConnectionCallBack(CFSocketRef socket,
 - (void)_streamHasBytes:(NSStream *)stream {
     NSMutableData *data = [NSMutableData data];
     uint8_t *buf = calloc(self.payloadSize, sizeof(uint8_t));
-    NSUInteger len = 0;
+    NSInteger len = 0;
     while([(NSInputStream*)stream hasBytesAvailable]) {
         len = [self.inputStream read:buf maxLength:self.payloadSize];
         if(len > 0) {
