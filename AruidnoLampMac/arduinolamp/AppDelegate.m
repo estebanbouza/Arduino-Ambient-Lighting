@@ -110,8 +110,8 @@
 
 /** Receive net message and process it */
 - (void)handleMessage:(NSString *)msg {
-    NSString *cmd;
-    NSInteger param;
+    NSString *cmd = nil;
+    NSInteger param = -1;
     
     NSArray *chunks = [msg componentsSeparatedByString:@"|"];
     
