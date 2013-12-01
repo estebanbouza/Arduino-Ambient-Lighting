@@ -5,7 +5,7 @@ Arduino LED Ambient Lighting
 
 Enable a backlight LED ambient system on your monitor/TV controlled via computer or iPhone. You’ll be able to switch lights on/off, control light power or run predefined light pattern changes directly from your iPhone or computer.
 
-Watch it here: http://youtu.be/3XSnY920wg
+Watch it here: https://www.youtube.com/watch?v=3XSnY920Ywg
 
 *********
 
